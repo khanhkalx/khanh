@@ -1,0 +1,509 @@
+:root{
+    --white-color: #fff;
+    --black-color:#000;
+    --text-color: #333;
+}
+
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto' , san-serif  ;
+    box-sizing: border-box;
+    line-height: 1.42857143;
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width{
+    width: 100%;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.no-top{
+    padding-top: 0 !important;
+    
+}
+#main{
+        
+}
+.nav{
+    position: relative;
+    min-height: 29px;
+    height: 29px;
+    border-bottom: 1px solid #eee;
+    background: #FFF;
+    overflow: hidden;
+    
+}
+.nav-search{
+    display: flex;
+    justify-content: end;
+    
+}
+.btn-input{
+    display: flex;
+    
+}
+.icon-input{
+    color: #b7b7b7;
+    padding: 1px 1px 6px 10px;
+    vertical-align: middle;
+    font-weight: normal;
+    overflow: auto;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn-search{
+    padding: 6px 6px 6px 10px;
+    width: 290px;
+    font-size: 14px;
+    
+}
+.btn-search__plus{
+   
+    position: relative;
+    width: 100%;
+    color: #555;
+    
+    outline: 0;
+    background-image: none;
+    border: none;
+    overflow: hidden;
+    user-select: none;
+    border-bottom: 1px solid #333333;
+
+    
+}
+.btn-buy {
+    padding: 4px 6px 6px 10px;
+}
+.btn-buy a{
+    text-decoration: none;
+    
+
+}
+.buy-total__product:hover{
+    border-bottom: 1px #000 solid;
+}
+.buy-total__product{
+    font-size: 12px;
+}
+.btn-buy__icon{
+    color: #000;
+    font-size: 12px;
+}
+.buy-total{
+    color: #000;
+    font-size: 12px;
+}
+.hotline{
+    position: relative;
+    background: #bb0d19;
+    height: 29px;
+    text-align: center;
+    padding: 0 10px;
+    
+}
+.hotline__icon{
+    float: left;
+    padding-top: 2px;
+}
+.fa-solid{
+    padding-top: 8px;
+}
+.hotline__icon em{
+    color: #003045;
+    width: 24px;
+    height: 24px;
+    background: #FFF;
+    position: relative;
+    border-radius: 50%;
+}
+.hotline p>a{
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+.hotline-number{
+    float: left;
+    padding: 5px 0px 8px 8px;
+    margin: 0 ;
+}
+.nav-heading{
+   width: 100%;
+
+}
+.img-logo{
+    height: 80px;
+    max-width: 100%;
+    width: 140px;
+    
+}
+
+.pathpage-group{
+    border-bottom: 1px solid #b7b7b7;
+}
+.container-group{
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+.break-cump{
+    padding: 10px 0;
+    list-style: none;
+    background-color: transparent;
+    display: flex;
+
+}
+.itemlistelement{
+    padding-right: 15px;
+    font-weight: 500;
+    
+}
+.itemlistelement a{
+    text-decoration: none;
+
+}
+.bc-home{
+    font-size: 18px;
+    color: #222;
+    
+}
+.bc-home:hover{
+    color: #BB0D19;
+}
+.main-group{
+
+}
+.news-group{
+
+}
+.news-title{
+    position: relative;
+    color: #bb0d19;
+    padding: 5px 0;
+    font-size: 22px;
+
+}
+.social-sharing__icon{
+color:  #777;
+line-height: 1.42857143;
+font-size: 12px;
+text-decoration: none;
+padding-right: 15px;
+
+}
+.social-sharing__icon:hover{
+    color: #bb0d19;
+    border-bottom: 1px #000 solid;
+
+    
+}
+.news-content{
+    position: relative;
+    padding: 20px 0;
+}
+.block-highlight{
+    padding: 20px;
+    margin: 20px auto;
+    border: 3px dotted #32580f;
+    border-radius: 15px
+}
+.row{
+ display: flex;
+ flex-wrap: nowrap;
+ margin-right: -10px;
+ 
+ 
+ 
+}
+.col-sm-6{
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    width: 100%;
+}
+.row-10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.stt li::marker{
+    font-size: 14px;
+    line-height: 22px;
+}
+.stt li{
+  font-size: 16px;
+  padding-left: 14px;
+  margin-bottom: 16px;
+  
+}
+.stt li a{
+    font-weight: 700;
+    color: #3367d6;
+    text-decoration: none;
+    font-size: 16px;
+    
+
+}
+.stt li a:hover{
+    color: #bb0d19;
+    border-bottom: 1px #bb0d19 solid;
+
+}
+.img-Kia5{
+    max-width: 100%;
+    cursor: move;
+}
+.col-6 {
+    
+    flex: 0 0 50%;
+    max-width: 50%;
+    
+
+}
+li::marker{
+    color: red;
+    display: block;
+    background-image: url('/img/Kia5.png');
+}
+.button-primary{
+      background-color: #b00!important;
+      border-color: #b00!important;
+      color: #fff!important;
+      font-size: 16px;
+      
+
+}
+.button-second{
+    font-size: 16px;
+    color: #fff!important;
+    background-color: #4d4d4d!important;
+    border-color: #4d4d4d!important;
+}
+.bitton{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-weight: bold;
+    line-height: 1.42857143;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+}
+.coin:hover{
+    border-bottom: 1px solid #fff;
+
+}
+.row-sale{
+    justify-content: space-between;
+}
+.col-sm-8 table{
+    height: 164px;
+    width: 762px;
+    max-width: 100%;
+    padding-right: 14px;
+    
+}
+.col-sm-8 table td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 14px;
+}
+.news-content blockquote{
+    background-color: #f5f6f7;
+    border-left: 3px solid #ff6a00;
+    border-radius: 4px;
+    color: #3c4043;
+    padding: 12px 10px;
+    margin-bottom: 1rem
+}
+.block-end{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+    
+}
+.block-end-1{
+    background-color: #ff6a00;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 25px;
+    box-shadow: 0 0 30px #ff6a00;
+}
+.block-end a{
+    display: block;
+    font-weight: 600;
+    text-align: center;
+}
+.block-end a:hover{
+    border-bottom: 1px solid #ddd;
+    
+
+}
+.block-end-2{
+    background-color: #3367d6;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #3367d6;
+
+}
+.footer-group{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    background-color: hwb(0deg 88% 12%);
+    border-top: 1px slategrey  solid;
+    
+    
+}
+.section-group{
+    display: flex;
+    
+    
+}
+.footer-block__col{
+    width: 33.3333%;
+}
+
+.footer-block__col--header{
+    font-size: 22px;
+    color: #b00;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+    padding-left: 8px;
+    margin-bottom: 5px;
+}
+.footer-block__col--header:hover{
+    opacity: 0.8;
+    padding-left: 10px;
+    cursor: pointer;
+    
+}
+.footer-list{
+    list-style: none;
+    padding-left:0 ;
+
+}
+.footer-list li{
+    padding: 10px;
+
+}
+.footer-list li>a{
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    
+}
+.footer-list li>a:hover{
+    color: red;
+    padding-left: 10px;
+    
+}
+.footer-contact{
+    display: block;
+    overflow: hidden;
+
+}
+.icon-footer li{
+    list-style: none;
+    padding: 20px 0px 10px 10px;
+}
+.icon-footer li>a{
+    color: #000;
+}
+
+
+@media only screen and (max-width : 739px) {
+    .block-highlight{
+        display: none;
+    }
+    .break-cump{
+        justify-content: center;
+        
+    }
+    .news-title{
+        text-align: center;
+
+    }
+    .social-sharing{
+        text-align: center;
+    }
+    .btn-search{
+        width: 200px;
+    }
+    .btn-buy{
+        display: none;
+
+    }
+    .nav-search{
+        justify-content: space-between;
+    }
+    .row-sale{
+        flex-wrap: wrap;
+
+    }
+    .col-sm-8{
+        width: 100%;
+        
+    }
+    .col-sm-4{
+        width: 100%;
+    }
+    .col-sm-8 table{
+        padding-right: 0;
+    }
+    .news-content blockquote{
+        max-width: 100%;
+        width: 100%;
+    }
+    .news-content blockquote>p{
+        font-size: 12px !important; 
+    }
+    .itemlistelement{
+        padding-right: 0;
+    }
+    .footer-block__col--header{
+        font-size: 14px;
+    }
+    .footer-list li>a{
+        font-size: 12px;
+    }
+    .icon-footer li>a{
+        font-size: 10px;
+    
+    }
+    .icon-footer li{
+        padding: 12px 50px 10px 0px;
+       
+    }
+    .block-end{
+        display: inline-block;
+    }
+    .block-end-2{
+        margin-top: 10px;
+        margin-right: 25px;
+    }
+}
+@media only screen and( min-width:739px ) and ( max-width:1023px ){
+
+
+}
